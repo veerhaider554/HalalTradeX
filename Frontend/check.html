@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Connection Check</title>
+</head>
+<body>
+
+<h1>Backend Connection Checker</h1>
+
+<button id="checkBtn">Check Connection</button>
+
+<h2 id="result">Waiting...</h2>
+
+<script>
+
+document.getElementById("checkBtn").addEventListener("click", function () {
+
+  fetch("http://localhost:5000/api/status")
+    .then(response => response.json())
+    .then(data => {
+
+      document.getElementById("result").innerText =
+        "CONNECTED ✔ " + data.message;
+
+    })
+    .catch(error => {
+
+      document.getElementById("result").innerText =
+        "NOT CONNECTED ❌";
+
+      console.log(error);
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>

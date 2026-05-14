@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- BASIC SETTINGS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- WEBSITE TITLE -->
+    <title>HalalTradeX</title>
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- NAVBAR CSS -->
+    <link rel="stylesheet" href="./css/navbar.css">
+    
+    <link rel="stylesheet" href="./css/hero.css">
+    
+    <link rel="stylesheet" href="./css/categories.css"/>
+    
+    <link rel="stylesheet" href="./css/products.css"/>
+    <link rel="stylesheet" href="./css/footer.css"/>
+    
+    <link rel="stylesheet" href="./css/responsive.css"/>
+    
+    
+</head>
+
+<body>
+
+<!-- ================= NAVBAR START ================= -->
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <!-- LEFT: LOGO -->
+        <div class="nav-left">
+            <a href="#" class="logo">HalalTradeX</a>
+        </div>
+
+        <!-- CENTER: SEARCH -->
+        <div class="nav-center">
+            <input type="text" class="search-input" placeholder="Search halal products, brands, deals...">
+            <button class="search-btn">Search</button>
+        </div>
+
+        <!-- RIGHT: ACTIONS -->
+        <div class="nav-right">
+
+            <a href="#" class="nav-link">Home</a>
+            <a href="./shop.html" class="nav-link">Shop</a>
+
+            <a href="./cart.html" class="icon-btn">
+    🛒 Cart <span class="cart-count">0</span>
+</a>
+            
+            <a href="auth.html" class="icon-btn">👤 Login</a>
+            <div class="menu-icon">
+    ☰
+</div>
+
+        </div>
+
+    </div>
+
+</header>
+<!-- ================= NAVBAR END ================= -->
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero">
+
+    <div class="hero-container">
+
+        <!-- LEFT CONTENT -->
+        <div class="hero-text">
+
+            <h1>Trusted Halal Marketplace for Everyone</h1>
+
+            <p>
+                Find 100% verified halal products in one place.
+                Fast, safe and reliable shopping experience.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="shop.html">
+                <button class="btn-primary">
+                Shop Now</button>
+                </a>
+                <button class="btn-secondary">Explore Categories</button>
+            </div>
+
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="hero-image">
+
+            <img src="./assets/images/hero.png" alt="HalalTradeX">
+
+        </div>
+
+    </div>
+    </section>
+    
+    <!-- ================= CATEGORIES SECTION ================= -->
+<section class="categories">
+
+    <div class="section-title">
+        <h2>Shop by Categories</h2>
+        <p>Explore halal products by category</p>
+    </div>
+
+    <div class="category-grid">
+
+        <div class="category-card">
+            <h3>🍗 Food & Grocery</h3>
+        </div>
+
+        <div class="category-card">
+            <h3>👕 Clothing</h3>
+        </div>
+
+        <div class="category-card">
+            <h3>📱 Electronics</h3>
+        </div>
+
+        <div class="category-card">
+            <h3>🕌 Islamic Products</h3>
+        </div>
+
+        <div class="category-card">
+            <h3>💄 Beauty</h3>
+        </div>
+
+        <div class="category-card">
+            <h3>🏠 Home Items</h3>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ================= PRODUCTS SECTION ================= -->
+<section class="products">
+
+    <div class="section-title">
+        <h2>Featured Products</h2>
+        <p>Best halal products for you</p>
+    </div>
+
+    <div class="product-grid">
+
+        <!-- PRODUCT CARD -->
+        <div class="product-card">
+            <div class="product-image"></div>
+            <h3>Halal Chicken Pack</h3>
+            <p class="price">$10</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"></div>
+            <h3>Islamic Book Set</h3>
+            <p class="price">$15</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"></div>
+            <h3>Halal Perfume</h3>
+            <p class="price">$25</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image"></div>
+            <h3>Organic Dates</h3>
+            <p class="price">$8</p>
+            <button onclick="addToCart(4)">Add to Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER SECTION ================= -->
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- ABOUT -->
+        <div class="footer-box">
+            <h3>HalalTradeX</h3>
+            <p>
+                Your trusted halal marketplace. We provide safe,
+                verified and quality products for everyone.
+            </p>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Categories</a>
+            <a href="#">Cart</a>
+        </div>
+
+        <!-- SUPPORT -->
+        <div class="footer-box">
+            <h3>Support</h3>
+            <a href="#">Help Center</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p>Email: support@halaltradex.com</p>
+            <p>Pakistan</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 HalalTradeX. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+
+    <!-- MAIN JS -->
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>

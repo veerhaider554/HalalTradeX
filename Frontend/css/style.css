@@ -1,0 +1,94 @@
+/* ============================= */
+/* GOOGLE FONT IMPORT */
+/* ============================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* ============================= */
+/* GLOBAL RESET */
+/* ============================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ============================= */
+/* ROOT COLORS */
+/* ============================= */
+
+:root{
+
+    --primary-color: #1FAF6A;
+    --primary-dark: #159157;
+
+    --white-color: #ffffff;
+
+    --black-color: #111111;
+
+    --text-color: #444444;
+
+    --border-color: #e5e5e5;
+
+    --shadow-light: 0 2px 10px rgba(0,0,0,0.05);
+
+}
+
+
+/* ============================= */
+/* BODY STYLE */
+/* ============================= */
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #f8f8f8;
+
+    color: var(--black-color);
+
+}
+
+
+/* ============================= */
+/* GLOBAL LINK STYLE */
+/* ============================= */
+
+a{
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+
+/* ============================= */
+/* GLOBAL BUTTON STYLE */
+/* ============================= */
+
+button{
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+
+    font-family: inherit;
+
+}
+
+
+/* ============================= */
+/* GLOBAL LIST STYLE */
+/* ============================= */
+
+ul{
+
+    list-style: none;
+
+}

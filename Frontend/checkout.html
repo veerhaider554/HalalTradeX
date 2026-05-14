@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - HalalTradeX</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/checkout.css">
+</head>
+
+<body>
+
+<!-- ================= CHECKOUT SECTION ================= -->
+<section class="checkout">
+
+    <div class="checkout-container">
+
+        <h1>Checkout</h1>
+
+        <!-- ORDER SUMMARY -->
+        <div class="summary">
+            <h3>Order Summary</h3>
+            <div id="summary-items"></div>
+
+            <h2>Total: $<span id="final-total">0</span></h2>
+        </div>
+
+        <!-- ADDRESS FORM -->
+        <div class="form">
+
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Phone Number">
+            <textarea placeholder="Full Address"></textarea>
+
+        </div>
+
+        <!-- PAYMENT -->
+        <div class="payment">
+            <h3>Payment Method</h3>
+
+            <label><input type="radio" name="pay"> Cash on Delivery</label>
+            <label><input type="radio" name="pay"> JazzCash</label>
+            <label><input type="radio" name="pay"> EasyPaisa</label>
+
+        </div>
+
+        <!-- BUTTON -->
+        <button class="order-btn">Place Order</button>
+
+    </div>
+
+</section>
+
+<script src="../js/checkout.js"></script>
+
+</body>
+</html>

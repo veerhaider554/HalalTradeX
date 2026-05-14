@@ -1,0 +1,59 @@
+/* ================= CATEGORIES SECTION ================= */
+
+.categories {
+    width: 100%;
+    padding: 60px 20px;
+    background: #fff;
+}
+
+/* TITLE */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    color: #111;
+}
+
+.section-title p {
+    color: #666;
+    margin-top: 5px;
+}
+
+/* GRID */
+.category-grid {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.category-card {
+    background: #f9f9f9;
+
+    padding: 25px;
+    text-align: center;
+
+    border-radius: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.category-card h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+/* HOVER EFFECT */
+.category-card:hover {
+    background: #1FAF6A;
+    color: white;
+    transform: translateY(-5px);
+}
