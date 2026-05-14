@@ -1,0 +1,4 @@
+PORT=3000
+MONGO_URI=test
+JWT_SECRET=halaltradex_secret  
+

@@ -1,0 +1,3 @@
+PORT=5000
+mongodb+srv://veerhaider655_db_user:<db_49532784@cluster0.auzwdzu.mongodb.net/?appName=Cluster0
+JWT_SECRET=halaltradex_secret
